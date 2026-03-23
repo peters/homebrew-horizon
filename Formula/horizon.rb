@@ -29,7 +29,7 @@ class Horizon < Formula
   end
 
   test do
-    assert_predicate bin/"horizon", :exist?
+    assert_path_exists bin/"horizon"
     assert_predicate bin/"horizon", :executable?
   end
 end
