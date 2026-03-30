@@ -32,4 +32,4 @@ brew untap peters/horizon
 
 The formula installs the stable release assets published at:
 
-https://github.com/peters/horizon/releases/tag/v0.2.2
+https://github.com/peters/horizon/releases/tag/v0.2.4

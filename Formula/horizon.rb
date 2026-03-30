@@ -1,26 +1,26 @@
 class Horizon < Formula
   desc "GPU-accelerated terminal board on an infinite canvas"
   homepage "https://github.com/peters/horizon"
-  url "https://github.com/peters/horizon/releases/download/v0.2.2/horizon-osx-arm64.tar.gz"
-  version "0.2.2"
+  url "https://github.com/peters/horizon/releases/download/v0.2.4/horizon-osx-arm64.tar.gz"
+  version "0.2.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/peters/horizon/releases/download/v0.2.2/horizon-osx-arm64.tar.gz"
-      sha256 "eec62707d6be631248f4e0c4781d8777936c0333bd24452be819a9338653fd2c"
+      url "https://github.com/peters/horizon/releases/download/v0.2.4/horizon-osx-arm64.tar.gz"
+      sha256 "354a28a556fa5357b2fd25fa14882fc9a02057e2a22fa37769aef77d264dfd06"
     end
 
     on_intel do
-      url "https://github.com/peters/horizon/releases/download/v0.2.2/horizon-osx-x64.tar.gz"
-      sha256 "d057f6e4872d8a3b3d9698328ed21417ec3fa0c5e69bc082405acc281222def1"
+      url "https://github.com/peters/horizon/releases/download/v0.2.4/horizon-osx-x64.tar.gz"
+      sha256 "e1eef88659b31a327f7c9895f69ed2bcee4895e08648b0c79ebc815d0b506387"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/peters/horizon/releases/download/v0.2.2/horizon-linux-x64.tar.gz"
-      sha256 "ef012f0efb412e5d0cf7eba3df3ddec6b94f8de747707b9ee3c3f2e4514a776d"
+      url "https://github.com/peters/horizon/releases/download/v0.2.4/horizon-linux-x64.tar.gz"
+      sha256 "4fa016006c2388f7273f413980f758fe58392509720ef45df1ac2e72a0f484c0"
     end
   end
 
